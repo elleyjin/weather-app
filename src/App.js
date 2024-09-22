@@ -1,13 +1,21 @@
 import "bootstrap/dist/css/bootstrap.css";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App container-fluid">
       <nav className="Navbar navbar">
-        <h1>New York</h1>
-        <form>
-          <input type="search" placeholder="Enter a city"></input>
+        <div className="Location navbar-brand">
+          <h1>New York</h1>
+        </div>
+        <form className="d-flex">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            className="form-control me-2"
+          ></input>
           <button className="btn btn-outline-light">Search</button>
         </form>
       </nav>
@@ -17,9 +25,7 @@ function App() {
           alt="weather-icon"
         />
         <span className="Temperature">27</span>
-        <span className="Units">°C</span>
-        <span className="Separator"> | </span>
-        <span className="Units">°F</span>
+        <span className="Units">°C | °F</span>
         <p>l: | h: </p>
       </div>
       <footer className="Footer">
