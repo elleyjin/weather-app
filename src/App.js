@@ -26,7 +26,9 @@ function App() {
         />
         <span className="Temperature">27</span>
         <span className="Units">°C | °F</span>
-        <p>l: | h: </p>
+        <p className="LowHigh">
+          <strong>l: | h: </strong>
+        </p>
       </div>
       <footer className="Footer">
         <p>
