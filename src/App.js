@@ -23,7 +23,16 @@ function App() {
         <p>l: | h: </p>
       </div>
       <footer className="Footer">
-        <p>Open source code by Chan Ee Lin/Elley Jin</p>
+        <p>
+          <a
+            href="https://github.com/elleyjin/weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open source code
+          </a>{" "}
+          by Chan Ee Lin/Elley Jin
+        </p>
       </footer>
     </div>
   );
