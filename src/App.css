@@ -1,0 +1,13 @@
+.App {
+  margin: 0 auto;
+  color: white;
+  background: black;
+}
+
+.App .Main {
+  text-align: center;
+}
+
+.App .Footer {
+  text-align: center;
+}
